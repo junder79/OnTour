@@ -1,0 +1,35 @@
+
+
+.main .box .chart {
+
+    float: left;
+    position: relative;
+    width:350px;
+    height: 350px;
+    margin:  0 auto;
+    text-align: center;
+    font-size: 60px;
+    line-height: 350px;
+    font-family: 'Roboto', sans-serif;
+}
+.main .box canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.meta {
+    margin-top: 40px;
+    margin-left:230px;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.progreso {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.progreso-actual {
+    font-size: 30px;
+    margin-left:450px;
+    font-family: 'Roboto', sans-serif;
+}

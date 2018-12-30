@@ -1,0 +1,48 @@
+/*  .ingrese-titulo {
+	
+	padding-left: 300px;
+	font-size: 40px;
+	vertical-align: middle;
+}
+.ingrese-input {
+	height: 30px;
+	width: 200px;
+}
+*/
+
+
+
+.form_top {
+	/* border : 2px solid black; */
+	text-align: center;
+	border-color: blue;
+	background-color: #2a2a2a;
+	color: #fff;
+	margin-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+
+.containergeneral
+{	
+	margin-top: 50px;
+	border : 1px solid black; 
+	width:1000px;
+	height:500px;
+	background-color:#ECEFF1;
+	
+
+}
+
+.tabla {
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid blue;
+}
+
+.btn_movimiento{
+	margin-left: 20px;
+}

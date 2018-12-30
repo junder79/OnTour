@@ -1,0 +1,122 @@
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.titulo-usuario-login {
+    margin-left: 3px;
+    color: white;
+}
+.titulo-contraseña-login{
+   margin-left:3px;
+   color: white;
+
+}
+/* INPUT DE LOGIN */
+.input-usuario-login {
+    margin-left: 5px;
+    padding-right: 90px;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+    transition: 3s;
+    border-radius:4px;
+
+}
+.input-usuario-login:focus{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.input-contraseña-login {
+    margin-left: 59px;
+    padding-right: 90px;
+    border: 1px solid black;
+    outline: none;
+    box-sizing: border-box;
+    transition: 3s;
+    border-radius:4px;
+
+}
+.input-contraseña-login:focus{
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+
+.formulario-general {
+    margin-top:20px;
+}
+.contenido-general {
+    border: 1px solid black;
+   background-image: url(../img/fondo-representante-login.png); 
+    margin-top: 0px;
+    width: 100%;
+    height:100%;
+}
+.login-contenido {
+    margin-right: 27px;
+    border-radius: 5%;
+    width: 400px;
+    height: 500px;
+    /* MOVER DIV HACIA LA DERECHA*/
+    margin: auto;
+   background: #e3f2fd;
+
+}  
+.titulo-login {
+    text-align: center;
+    font-size:30px;
+    padding-top:10px;
+    margin-bottom: 3px;
+    background-color: #D32F2F;
+    font-family: "Roboto";
+    color:white;
+    border-radius: 0.15em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/* Botones */
+
+.btn-acceder {
+    margin-top: 3px;
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    color:white;
+    background-color:#E53935;
+    text-transform: uppercase;
+    border-radius: 0.15em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+
+}
+.btn-perfil {
+    width: 100%;
+    font-family: "Roboto";
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    color:white;
+    background-color:#E53935;
+    text-transform: uppercase;
+    border-radius: 0.15em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+/* label focus color */
+.input-field  label {
+   color:black!important;
+ }
+
+ .input-field input:focus + label {
+   color:red!important;
+ }

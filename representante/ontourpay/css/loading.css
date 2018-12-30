@@ -1,0 +1,88 @@
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+
+.container {
+		background-color: #eee; 
+		position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		top:50%;
+		left:50%;
+		/*determinamos una anchura*/
+		width:400px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-200px;
+		/*determinamos una altura*/
+		height:400px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:-150px;
+		border:1px solid #808080;
+		padding:5px;
+}
+body {
+	background-image: url(../img/fondo.jpg);
+}
+h1{	
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Roboto';
+}
+.success {
+	margin-left: 160px;
+	width: 70px;
+	height: 70px;
+
+}
+
+.label-info {
+	font-family: 'Roboto';
+}
+
+.btn-aceptar {
+	margin-top:40px;
+	margin-left: 130px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    background: #4aff56;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4aff56), to(#269958));
+    background: -moz-linear-gradient(top, #4aff56, #269958);
+    background: linear-gradient(to bottom, #4aff56, #269958);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 20px trebuchet ms;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.btn-aceptar:hover {
+    background: #59ff67;
+    background: -webkit-gradient(linear, left top, left bottom, from(#59ff67), to(#2eb86a));
+    background: -moz-linear-gradient(top, #59ff67, #2eb86a);
+    background: linear-gradient(to bottom, #59ff67, #2eb86a);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.btn-aceptar:active {
+    background: #2c9934;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2c9934), to(#269958));
+    background: -moz-linear-gradient(top, #2c9934, #269958);
+    background: linear-gradient(to bottom, #2c9934, #269958);
+    text-transform: uppercase
+}
+.btn-aceptar:focus {
+    text-transform: uppercase
+}
+
+
+

@@ -1,0 +1,146 @@
+.form_top {
+	/* border : 2px solid black; */
+	text-align: center;
+	
+	border-color: blue;
+	background-color: #2a2a2a;
+	color: #fff;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	
+
+}
+
+
+.container 
+{	
+	
+	margin-top: 50px;
+	border : 1px solid black; 
+	width:1000px;
+	height:600px;
+	background-color:#ECEFF1;
+	
+}
+
+.btn_form {
+	text-align: center;
+	
+}
+
+.form_reg {
+	/* border : 3px solid green;*/
+	padding-top: 4px;
+	padding-bottom:230px;
+	height: 170px;
+}
+.colegio {
+	margin-left: 199px;
+}
+.curso {
+	/* border: 3px solid black;  */
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.curso_input {
+	width: 230px;
+	margin-right:10px;
+	margin-bottom: 5px;
+
+}
+
+.destino {
+	/* border: 3px solid black;  */
+	margin-left: 196px;
+	margin-bottom: 5px;
+}
+
+.destino_input {
+	width: 220px;
+	margin-bottom: 5px;
+}
+
+.fecha {
+	 /* border: 3px solid black;  */
+	 margin-left: 10px;
+	 margin-bottom: 5px;
+}
+.fecha_input {
+	width: 230px;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+.numeroAlumno {
+	/* border: 3px solid black;  */
+	margin-left: 185px;
+	margin-bottom: 5px;
+}
+.numero_input{
+	width: 97px;
+	margin-bottom: 5px;
+}
+
+.servicios {
+	/* border: 3px solid black;  */
+	margin-left:10px;
+	margin-bottom: 5px;
+
+}
+.servicios_input {
+	width: 185px;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+.tipoActividades{
+	margin-left: 180px;
+}
+
+.tipo_input {
+	width:160px;
+	margin-bottom: 5px;
+}
+.correo {
+	/* border: 3px solid black;  */
+	margin-left: 10px;
+	margin-bottom: 5px;
+	
+}
+.correo_input {
+	width: 231px;
+}
+
+.nombre_representante{
+	margin-left: 160px;
+}
+.nombre_representante-input {
+	padding-right: 22px;
+}
+/* BOTONES */
+
+.btn_submit {
+	font-family: "Roboto";
+    font-size: 17px;
+    padding: 1em 4em;
+    border: 0;
+    outline: 0;
+    color: white;
+    background-color: #263238;
+    text-transform: uppercase;
+    border-radius: 0.15em;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+	
+	
+
+}
+
+.btn_submit:hover {
+	background:#FFFFFF;
+	color:black;
+}
+.titulo-contenido{
+	text-align: center;
+}
